@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Desafio Final do Módulo 1</title>
+</head>
+<body>
+    <div class="box-container">
+        <h1>Pesquisa de Usuários</h1>
+
+        <div class="loading">
+            <div class="loadingCircle"></div>
+            <p>Loading...</p>
+        </div>
+
+        <div class="box-search">
+            <div>
+                <input type="text" id="inputSearch" value="" placeholder="Digite sua busca aqui" disabled>
+            </div>
+            <div>
+                <button id="btnSearch" disabled>Buscar</button>
+            </div>
+        </div>
+
+        <div class="search-results">
+            <div class="box-style box-statistics-nada" id="box-statistics">
+                <h2 class="title-statistics">Estatísticas</h2>
+                <h3>Nada a ser exibido!</h3>
+            </div>
+
+            <div class="box-style box-results" id="box-results">
+                <h2>
+                    <span></span> Usuários
+                </h2>
+                <h3>Nenhum usuário filtrado!</h3>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
