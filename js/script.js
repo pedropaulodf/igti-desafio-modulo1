@@ -119,7 +119,7 @@ function renderStatisticsHTML(totalMens, totalWomans, totalAge, averageAge) {
         <div class="sex-m">👨 Homem: <span>${totalMens.length}</span></div>
         <div class="sex-f">👩 Mulher: <span>${totalWomans.length}</span></div>
         <div class="idades-soma">➕ Soma Idades: <span>${totalAge}</span></div>
-        <div class="idades-media">➗ Média Idades: <span>${formatNumber(averageAge)}</span></div>`;
+        <div class="idades-media">➗ Média Idades: <span>${formatNumber(isNaN(averageAge) ? 0 : averageAge)}</span></div>`;
 
     // remove class from box statistics for visual
     formatBoxStatisticsClass(true);
@@ -150,6 +150,7 @@ function unblockSearchBtn(event) {
         cleanSearchData();
         return;
     }
+    searchPeople();
     btnSearch.disabled = false;
 }
 
