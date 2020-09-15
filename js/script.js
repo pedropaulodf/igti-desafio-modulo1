@@ -23,9 +23,9 @@ window.addEventListener('load', () => {
 
 async function getAllPeople() {
     try {
-        // Comentei o fetch abaixo por que a api esta caindo direto, mas e so descomentar que funciona
-        // const res = await fetch('https://randomuser.me/api/?seed=javascript&results=100&nat=BR&noinfo');
-        const res = await fetch('./js/api.js');
+        // Se a API cair, use a linha abaixo dela
+        const res = await fetch('https://randomuser.me/api/?seed=javascript&results=100&nat=BR&noinfo');
+        // const res = await fetch('./js/api.js');
         const json = await res.json();
 
         // hide de loading message
