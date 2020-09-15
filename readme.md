@@ -10,6 +10,6 @@ Javascript
 
 ### Projeto final do Módulo 1 do bootcamp da IGTI
 
-<a href="https://pedropaulodf.netlify.app/modulo1/desafio-final-modulo-1/" target="_blank">Veja ele no Netlify</a>
+<a href="https://pedropaulodf-igti-desafio-modulo1.netlify.app/" target="_blank">Veja ele no Netlify</a>
 
 <img src="img/desafioFinalModulo1.png" width="500">
