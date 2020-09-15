@@ -2,7 +2,7 @@ Projeto desenvolvido no Bootcamp do IGTI [Meu primeiro bootcamp]
 
 ### Objetivo
 
-Exercitar a busca de dados numa API via Javascript.
+Exercitar a busca de dados de uma API via Javascript.
 
 ### Tecnologias usadas
 
