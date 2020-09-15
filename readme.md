@@ -6,7 +6,7 @@ Exercitar a busca de dados numa API via Javascript.
 
 ### Tecnologias usadas
 
-Javascript
+HTML, CSS e Javascript
 
 ### Projeto final do Módulo 1 do bootcamp da IGTI
 
